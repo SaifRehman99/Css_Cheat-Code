@@ -1,0 +1,190 @@
+/* This is called as universal selector */
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+
+/* This is body tag in which we do css which implement in the whole body */
+body{
+    background-color: darkgray;
+    color: black;
+    /* Now using the fonts styling using the two same methods */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+
+    font: normal 18px Geneva, Arial;
+
+    line-height: 1.5em;
+    /* em is greater than px */
+
+
+
+}
+
+/* This is container class in which the whole body is wrapped */
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+.clr {
+    clear: both;
+}
+.div-1{
+    background-color: burlywood;
+    
+    /* giving border here */
+    border-right: 6px tomato solid;
+    border-top: 6px tomato solid;
+    border-bottom: 6px tomato solid;
+    border-left: 6px tomato solid;
+
+    /* The below is same as above */
+
+    border: 6px tomato solid;
+
+
+    border-width: 8px;
+
+    /* giving padding and margin here */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+    /* same as  */
+    padding: 15px;
+    margin: 25px 0px;
+}
+.div-1 h1{
+    color: slategrey;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    text-transform: uppercase;
+
+}
+
+.div-2{
+        border: 5px purple dotted;
+        padding: 20px;
+        margin: 30px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: gold;
+
+}
+a:visited{
+    color: green;
+}
+
+.lisitngs{
+    border: 5px green dashed;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.lisitngs h2{
+    color: blue;
+    font:normal 40px italic;
+    text-align: center;
+}
+
+.lisitngs ul{
+    list-style: none;
+    padding: 0%;
+    padding-left: 30px;
+}
+.lisitngs li{
+    padding-bottom: 10px;
+    border-bottom: 2px gray dashed;
+    padding-top: 10px;
+}
+
+.form{
+    padding: 20px;
+}
+.form .field{
+    padding-bottom: 20px;
+}
+.form label {
+        display: block;
+}
+
+.form input[type="text"] , textarea {
+    padding: 10px;
+    width: 100%;
+}
+.button{
+    padding: 10px;
+    color: black;
+}
+
+.button:hover{
+    color: orange;
+}
+
+.section{
+    float: left;
+    width: 33%;
+    border: 8px burlywood solid;
+    padding: 20px;
+    margin: 20px 0px;
+    /* its merge the width in one  */
+    box-sizing: border-box;
+}
+
+#side{
+    float: right;
+    width: 30%;
+    background-color: blueviolet;
+    padding: 15px;
+    box-sizing: border-box;
+
+    
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+
+
+}
+
+.fix-bar{
+    position: fixed;
+    top: 500px;
+}
+.list{
+    padding: 20px;
+    margin: 20px;   
+}
+.list li{
+    padding-bottom: 20px;
+    line-height: 2em;
+}
+
+
+.list li:first-child{
+    background-color: aqua;
+
+}
+
+.list li:nth-child(5){
+    background-color: red;
+}
+
+.list li:nth-child(even){
+    background-color: blue;
+}
